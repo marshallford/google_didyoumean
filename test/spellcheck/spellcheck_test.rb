@@ -25,4 +25,10 @@ class GoogleSpellcheckTest < Minitest::Test
 	   		assert GoogleSpellcheck.check("\"testing\" 'ruby'"), true
 	    end
 	end
+
+	def test_did_you_mean
+		VCR.use_cassette('test_did_you_mean') do
+	   		assert GoogleSpellcheck.check("pythonprogramming"), "python programming"
+	    end
+	end
 end

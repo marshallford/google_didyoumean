@@ -2,6 +2,7 @@ require 'httparty'
 require 'json'
 require 'nokogiri'
 require 'cgi'
+require 'open-uri'
 
 GOOGLE_URL = "https://www.google.com/search?q="
 

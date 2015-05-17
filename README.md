@@ -25,6 +25,12 @@ Or install it yourself as:
 result = GoogleSpellcheck.check("word or phrase to check")
 ```
 
+## Testing
+
+```
+rake test
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/marshallford/google_spellcheck/fork )

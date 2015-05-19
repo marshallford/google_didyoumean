@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ```ruby
 # will return true if there are no corrections, otherwise will return the corrected string
-result = GoogleSpellcheck.check("word or phrase to check")
+result = GoogleSpellcheck.run("word or phrase to check")
 ```
 
 ## Testing

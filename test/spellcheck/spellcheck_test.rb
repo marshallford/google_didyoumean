@@ -22,7 +22,7 @@ class GoogleSpellcheckTest < Minitest::Test
 
     def test_quotes
         VCR.use_cassette("test_quotes") do
-            assert GoogleSpellcheck.run("\"testing\" "ruby""), true
+            assert GoogleSpellcheck.run("\"testing\" \"ruby\""), true
         end
     end
 
